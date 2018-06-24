@@ -1,0 +1,1 @@
+[https://github.com/wmonk/create-react-app-typescript](https://github.com/wmonk/create-react-app-typescript)) + MobX State Tree + Sass boilerplate. Single ToDo App as an example.
