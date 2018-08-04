@@ -26,17 +26,17 @@ class ProjectList extends React.Component<IProjectListProps> {
     }
 
     addProject(newProject: IProject): void {
-        const { projectStore } = this.props;
+        let projectStore: IProjectStore = this.props.projectStore;
         projectStore.addProject(newProject);
     }
 
     deleteProject(id: number): void {
-        const { projectStore } = this.props;
+        let projectStore: IProjectStore = this.props.projectStore;
         projectStore.deleteProject(id);
     }
 
     render() {
-        const { projectStore } = this.props;
+        let projectStore: IProjectStore = this.props.projectStore;
         return (
             <div>
                 <ul>
